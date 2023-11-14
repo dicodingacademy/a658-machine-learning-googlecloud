@@ -1,5 +1,2 @@
-/__MACOSX
-/.ipynb_checkpoints
-/rockpaperscissors
-rockpaperscissors.zip
-/Models
+/node_modules
+package.json
