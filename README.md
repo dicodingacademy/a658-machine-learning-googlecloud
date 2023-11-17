@@ -1,2 +1,2 @@
-# Belajar Dasar Pemrograman Web
-Silakan lihat branch yang tersedia untuk melihat kode yang digunakan pada kelas [Belajar Dasar Pemrograman Web](https://www.dicoding.com/academies/123/).
+# Belaja Penerapan Machine Learning dengan Google Cloud
+Silakan lihat branch yang tersedia untuk melihat kode yang digunakan pada kelas [Belajar Penerapan Machine Learning dengan Google Cloud](https://www.dicoding.com/academies/658).
