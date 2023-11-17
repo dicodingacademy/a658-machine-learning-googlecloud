@@ -1,2 +1,2 @@
-# Belaja Penerapan Machine Learning dengan Google Cloud
+# Belajar Penerapan Machine Learning dengan Google Cloud
 Silakan lihat branch yang tersedia untuk melihat kode yang digunakan pada kelas [Belajar Penerapan Machine Learning dengan Google Cloud](https://www.dicoding.com/academies/658).
