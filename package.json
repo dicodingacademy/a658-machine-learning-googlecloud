@@ -1,17 +1,16 @@
 {
-  "name": "cloud-storage",
+  "name": "cloud-firestore",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "upload": "node upload.js",
-    "download": "node download.js"
+    "upload": "node firestore.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@google-cloud/storage": "^7.6.0"
+    "@google-cloud/firestore": "^7.1.0"
   }
 }
