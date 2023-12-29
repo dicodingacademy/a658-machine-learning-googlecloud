@@ -8,14 +8,14 @@ async function store_data() {
     console.log("Collections 'dokter' berhasil dibuat.");
 
     // Membuat dokumen: Dokter Eros
-    const erosDoc = await doctorsCollections.doc("Dokter Erros");
+    const erosDoc = await doctorsCollections.doc("Dokter Eros");
     console.log("Dokumen atas nama dokter Eros berhasil dibuat.");
 
     // Menambahkan data pribadi dokter Eros
     const profileEros = {
-        name: "Dr. Eros",
+        nama: "Dr.Eros",
         keahlian: "Dokter Kulit",
-        Almamater: "Universitas A"
+        almamater: "Universitas A"
     }
     await erosDoc.set(profileEros)
     console.log("Data berhasil ditambahkan ke dokumen Eros");
@@ -24,15 +24,15 @@ async function store_data() {
     const erosSubcollections = erosDoc.collection("Konsultasi");
     console.log("Subcollection Konsultasi berhasil dibuat.");
 
-    // Memnambahkan data ke 
+    // Menambahkan data ke 
     const historyConsultations = {
-        name: {
-            depan: "Herman",
-            belakang: "Jenaka",
+        nama_pasien: {
+            depan: "Antony",
+            belakang: "Gunawan",
         },
         waktu_konsultasi: Date.now().toString()
     }
-    await erosSubcollections.doc("antony").set(historyConsultations);
+    await erosSubcollections.doc("Antony").set(historyConsultations);
     console.log("Data berhasil ditambahkan.");
 }
 
