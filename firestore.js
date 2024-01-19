@@ -4,16 +4,16 @@ const db = new Firestore();
 
 async function store_data() {
     // Membuat Collection root-level
-    const doctorsCollections = db.collection('dokter');
-    console.log("Collections 'dokter' berhasil dibuat.");
+    const doctorsCollections = db.collection('Dokter');
+    console.log("Collections 'Dokter' berhasil dibuat.");
 
     // Membuat dokumen: Dokter Eros
     const erosDoc = await doctorsCollections.doc("Dokter Eros");
-    console.log("Dokumen atas nama dokter Eros berhasil dibuat.");
+    console.log("Dokumen atas nama Dokter Eros berhasil dibuat.");
 
     // Menambahkan data pribadi dokter Eros
     const profileEros = {
-        nama: "Dr.Eros",
+        nama: "dr.Eros",
         keahlian: "Dokter Kulit",
         almamater: "Universitas A"
     }
